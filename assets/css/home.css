@@ -1,0 +1,18 @@
+.home-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--gap);
+  min-height: 100vh;
+}
+
+.home-text, .home-img {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.home-img img {
+  max-width: 100%;
+  height: auto;
+}

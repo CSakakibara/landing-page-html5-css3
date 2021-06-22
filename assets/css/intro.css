@@ -1,18 +1,8 @@
 .intro-content {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: var(--gap);
-  height: 100vh;
-}
-
-.intro-text, .intro-img {
+  max-width: 64rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
-}
-
-.intro-img img {
-  max-width: 100%;
-  height: auto;
+  text-align: center;
+  min-height: 100vh;
 }
