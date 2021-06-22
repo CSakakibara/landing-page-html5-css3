@@ -1,0 +1,48 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 0.1rem solid var(--secondary-color2);
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul a {
+  display: block;
+  padding: 2rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.menu ul a::after {
+  content: '';
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  width: 0%;
+  height: 0.2rem;
+  background: var(--tertiary-color);
+  transition: all 300ms ease-in-out;
+}
+
+.menu ul a:hover::after {
+  width: 50%;
+  left: 25%;
+}
+
+.menu h1 {
+  font-size: 2.5rem;
+}
