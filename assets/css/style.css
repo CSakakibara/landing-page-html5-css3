@@ -23,3 +23,8 @@
 .section {
   min-height: 100vh;
 }
+
+.table {
+  overflow-x: hidden;
+  overflow-x: auto;
+}
