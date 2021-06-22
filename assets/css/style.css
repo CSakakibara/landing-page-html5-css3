@@ -28,3 +28,8 @@
   overflow-x: hidden;
   overflow-x: auto;
 }
+
+body .flex-full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}

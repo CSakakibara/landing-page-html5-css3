@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.footer a {
+  color: var(--tertiary-color2);
+}
+
+.footer p {
+  margin: 0;
+  padding: 3rem;
+}
+
+.heart {
+  color: var(--tertiary-color);
+}

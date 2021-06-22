@@ -5,6 +5,10 @@
   min-height: 100vh;
 }
 
+.top3-content h2 {
+  color: var(--tertiary-color);
+}
+
 .grid-heading {
   margin-bottom: 1rem;
 }
