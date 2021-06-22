@@ -9,6 +9,10 @@
   background: var(--secondary-color);
 }
 
+.secondary-bg2 {
+  background: var(--secondary-color2);
+}
+
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
