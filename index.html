@@ -26,11 +26,13 @@
 </head>
 
 <body>
+  <input type="checkbox" name="" id="close-menu" role="button" aria-label="Close menu" class="close-menu">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
   <aside class="menu secondary-bg2">
     <div class="main-content menu-content">
-      <h1><a href="#home">Logo</a> </h1>
+      <h1>Logo</h1>
       <nav>
-        <ul>
+        <ul onclick="getElementById('close-menu').checked = false;">
           <li><a href="#intro">intro</a></li>
           <li><a href="#top3">top3</a></li>
           <li><a href="#gallery">gallery</a></li>
@@ -220,6 +222,7 @@
   <footer id="footer" class="main-bg footer">
     <p><a href="" target="_blank">Feito com <span class="heart">❤</span> por C Sakakibara</a></p>
   </footer>
+  <a class="back-to-top" href="#" a>⮝</a>
 </body>
 
 </html>
